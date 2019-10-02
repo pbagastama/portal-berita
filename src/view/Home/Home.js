@@ -25,8 +25,6 @@ export default class Home extends Component {
         fetch('https://newsapi.org/v2/top-headlines?country=id&category=' + this.state.currentCategory + '&pageSize=10&page=1&apiKey=' + token.newsapp)
             .then(response => { return response.json() })
             .then(res => {
-                console.log(res)
-
                 if (res.articles.length >= 10) {
                     this.setState({
                         data: res.articles,
@@ -36,7 +34,6 @@ export default class Home extends Component {
                 }
             })
             .catch(err => {
-                console.log(err);
                 this.setState({
                     loading: "none",
                     buttonLoading: "none"
@@ -52,7 +49,6 @@ export default class Home extends Component {
             fetch('https://newsapi.org/v2/top-headlines?country=id&category=' + val + '&pageSize=10&apiKey=' + token.newsapp)
                 .then(response => { return response.json() })
                 .then(res => {
-                    console.log(res)
                     if (res.articles.length >= 10) {
                         this.setState({
                             data: res.articles,
@@ -64,10 +60,8 @@ export default class Home extends Component {
                 })
                 .catch(err => {
                     this.setState({
-
                         loading: "none",
                         buttonLoading: "none"
-
                     })
                 })
         })
@@ -101,10 +95,8 @@ export default class Home extends Component {
                         data: this.state.data.concat(res.articles),
                         loading: "none",
                         buttonLoading: "none"
-
                     })
                 }
-
             })
             .catch(err => {
                 console.log(err);

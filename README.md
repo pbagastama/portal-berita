@@ -1,4 +1,23 @@
+# Portal Berita (NEWSAPI)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Using API from [NewsAPI](https://newsapi.org/).<br>
+To see this project in action, go to [Demo](https://bagasptama-newsapi.netlify.com/)
+
+## Getting Started
+
+Clone this repo :
+`git clone https://github.com/tamabagas/portal-berita.git`
+
+Navigate to the root folder and install all dependencies :
+
+- `npm install`
+
+Start Development Mode :
+
+- `npm start`
+- Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Happy Hacking!
 
 ## Available Scripts
 
