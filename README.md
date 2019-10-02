@@ -1,8 +1,13 @@
-# Portal Berita (NEWSAPI)
+# Portal Berita Online (News - API)
+
+  
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Using API from [NewsAPI](https://newsapi.org/).<br>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Using API from [NewsAPI](https://newsapi.org/)
+
 To see this project in action, go to [Demo](https://bagasptama-newsapi.netlify.com/)
+
+  
 
 ## Getting Started
 
@@ -10,14 +15,15 @@ Clone this repo :
 `git clone https://github.com/tamabagas/portal-berita.git`
 
 Navigate to the root folder and install all dependencies :
-
 - `npm install`
 
 Start Development Mode :
-
 - `npm start`
+
 - Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
 - Happy Hacking!
+
 
 ## Available Scripts
 
@@ -25,23 +31,23 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.<br>
+Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br>
+The page will reload if you make edits.
 You will also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.<br>
+Launches the test runner in the interactive watch mode.
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.<br>
+Builds the app for production to the `build` folder.
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br>
+The build is minified and the filenames include the hashes.
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
@@ -62,21 +68,9 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
 ### Making a Progressive Web App
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
 ### Deployment
 
